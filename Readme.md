@@ -1,4 +1,4 @@
-# Drug Database Downloader 💊
+# Download drugs related to diseases 💊
 
 Download drugs and compounds for any disease from major biomedical databases.
 
