@@ -1,10 +1,8 @@
-```markdown
 # Drug Database Downloader 💊
 
 Download drugs and compounds for any disease from major biomedical databases.
 
 ## Quick Start
-
 ```bash
 # Install dependencies
 pip install requests pandas
@@ -24,7 +22,6 @@ Downloads drug information from:
 - **PubChem** - Chemical compounds
 
 ## Example Output
-
 ```bash
 $ python download_drugs.py migraine
 
@@ -50,7 +47,6 @@ Unique drug names   :  854
 ```
 
 ## Output Files
-
 ```
 migraine_drugs_clinicaltrials_20251228_042403.csv    (1388 records)
 migraine_drugs_opentargets_20251228_042403.csv       (25 records)
@@ -59,7 +55,6 @@ migraine_drugs_ALL_20251228_042403.csv               (1420 total)
 ```
 
 ## Options
-
 ```bash
 python download_drugs.py <disease_name> [--outdir PATH]
 
@@ -70,7 +65,6 @@ Examples:
 ```
 
 ## Requirements
-
 ```
 Python 3.7+
 requests
@@ -105,6 +99,3 @@ Muhammad Muneeb ([@muhammadmuneeb007](https://github.com/muhammadmuneeb007))
 - [ChEMBL](https://www.ebi.ac.uk/chembl/) - EMBL-EBI
 - [Open Targets](https://platform.opentargets.org/) - EMBL-EBI & Partners
 - [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - NCBI
-```
-
-Simple, clean, and shows the exact output! 🚀
